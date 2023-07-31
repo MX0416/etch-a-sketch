@@ -1,0 +1,14 @@
+#container {
+  margin:5px;
+  display: flex;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  border-style: solid;
+  width: 30px;
+  height: 30px;
+}
