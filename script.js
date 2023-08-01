@@ -1,13 +1,15 @@
-const container = document.querySelector('#container');
+const gameboard = document.querySelector('#gameboard');
 
-for (let col = 0; col < 16; col++) {
 
+
+// nested for loop that creates the grid
+for (let i = 0; i < 16; i++){
   const row = document.createElement('div');
   row.classList.add('row');
-  container.append(row);
-  for (let row = 0; row < 16; row++) {
+  gameboard.appendChild(row);
+  for (let col = 0; col < 16; col++) {
     const square = document.createElement('div');
     square.classList.add('square');
-    row.appendChild
+    row.appendChild(square);
   }
 }
