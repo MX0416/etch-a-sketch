@@ -11,10 +11,13 @@ html {
   gap: 0px;
   margin: 0;
   padding: 0;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   flex: 1;
-  background-color: antiquewhite;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 5px;
+  border-color: brown;
 }
 
 .row {
@@ -27,5 +30,9 @@ html {
 .square {
   display: flex;
   flex: 1;
+}
+
+/* class for divs that have been colored */
+.colored {
   background-color: black;
 }
