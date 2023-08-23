@@ -5,7 +5,7 @@ createGrid(gridSize);
 
 
 
-// buttons
+// all buttons
 // changing grid size
 const girdSizeButton = document.querySelector('#grid-size');
 girdSizeButton.addEventListener('click', function(){
